@@ -1,0 +1,6 @@
+.techSection {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,20 @@
+.techCard {
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 286px;
+    height: 86px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.techCard img {
+    margin-left: 40px;
+}
+
+@media (max-width: 390px) {
+    .techCard {
+        align-items: center;
+    }
+}

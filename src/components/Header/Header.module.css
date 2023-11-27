@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(6.25rem, 0.491rem + 15.357vw, 14.313rem);
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: clamp(0.625rem, -1.607rem + 5.952vw, 3.75rem);
+}
+
+@media (max-width: 768px) {
+    .container {
+        gap: 100px;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .menu {
+        gap: 50px;
+    }
+}

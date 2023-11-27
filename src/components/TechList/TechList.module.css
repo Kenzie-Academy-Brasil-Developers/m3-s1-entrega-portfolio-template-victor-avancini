@@ -1,0 +1,12 @@
+.techList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 390px) {
+    .techList {
+        align-items: center;
+        justify-content: center;
+    }
+}

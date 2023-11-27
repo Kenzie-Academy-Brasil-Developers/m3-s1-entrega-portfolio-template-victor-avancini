@@ -1,0 +1,79 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+    --color-link: #7B61FF;
+    --font-family: 'Inter';
+    --font-size-title1: 48px;
+    --font-size-title2: 40px;
+    --font-size-title3: 22px;
+    --font-size-label: 14px;
+    --font-size-link: 16px;
+    --font-size-paragraph: 16px;
+    --font-weight-title1: bold;
+    --font-weight-title2: bold;
+    --font-weight-title3: bold;
+    --font-weight-link: bold;
+}
+
+#root {
+    max-width: 100%;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    display: flex;
+    margin: 10px auto;
+    max-width: 75%;
+    padding: 0 50px;
+}
+
+@media (max-width: 390px) {
+    body {
+        padding: 0 10px;
+        margin: 5px auto;
+        max-width: 85%;
+    }
+}
+
+h1 {
+    font-size: var(--font-size-title1);
+    font-weight: var(--font-weight-title1);
+}
+
+h2 {
+    font-size: var(--font-size-title2);
+    font-weight: var(--font-weight-title2);
+}
+
+h3 {
+    font-size: var(--font-size-title3);
+    font-weight: var(--font-weight-title3);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--color-primary-hover);
+}
+
+button {
+    border-radius: 12px;
+    border: 1px solid #000;
+    background-color: var(--color-primary);
+    color: white;
+    width: 130px;
+    height: 39px;
+}
+
+button:hover {
+    background-color: var(--color-primary-hover);
+    cursor: pointer;
+}

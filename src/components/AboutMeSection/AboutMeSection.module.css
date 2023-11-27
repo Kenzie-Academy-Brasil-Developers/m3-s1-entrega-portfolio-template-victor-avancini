@@ -1,0 +1,30 @@
+.aboutMeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: clamp(0.625rem, -2.054rem + 7.143vw, 4.375rem);
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+
+.aboutMeSection h2 {
+    white-space: nowrap;
+}
+
+.aboutMeSection p {
+    line-height: 1.875rem;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .aboutMeSection {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .aboutMeSection {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
